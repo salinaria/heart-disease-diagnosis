@@ -8,7 +8,6 @@ The aim of this project is to diagnose heart disease based on a `fuzzy expert sy
 5. **ECG**
 6. **Old Peak**
 7. **Age**
-- The `fuzzy` sets of these values are available [Here](https://github.com/salinaria/heart-disease-diagnosis/blob/main/fuzzy%20sets).
 
 ### Crisp Inputs
 1. **Chest Pain**
@@ -26,7 +25,7 @@ The aim of this project is to diagnose heart disease based on a `fuzzy expert sy
 This project includes four steps:
 1. [Fuzzification](https://github.com/salinaria/heart-disease-diagnosis/blob/main/fuzzification.py): Based on Inputs and Fuzzy Sets
 2. [Inference](https://github.com/salinaria/heart-disease-diagnosis/blob/main/inference.py): Based on the [Rules](https://github.com/salinaria/heart-disease-diagnosis/blob/main/rules.fcl)
-3. [Defuzzification](https://github.com/salinaria/heart-disease-diagnosis/blob/main/defuzzification.py): Based on [Diagram of Output Values](https://github.com/salinaria/heart-disease-diagnosis/blob/main/fuzzy%20sets/sickness.JPG) and This Formula of the Center of the Mass (`CoG`):
+3. [Defuzzification](https://github.com/salinaria/heart-disease-diagnosis/blob/main/defuzzification.py): Based on this Formula of the Center of the Mass (`CoG`):
 
 $$x^*=(\sum_{i=1}^{n} μ_C^― (x_i).x_i)/(\sum_{i=1}^{n} μ_C^― (x_i))$$
 
